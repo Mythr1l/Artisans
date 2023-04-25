@@ -1,0 +1,201 @@
+/* General styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* Header styles */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 25px 20px;
+}
+.logo{
+	position: absolute;
+	left: 0;
+	width: 150px;
+	top: 0;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 1px;
+	display: flex;
+	justify-content: right;
+}
+nav li {
+	margin: 0 30px;
+	padding-top: 20px;
+}
+nav a {
+	color: aqua;
+	text-decoration: none;
+}
+nav a:hover{
+	text-decoration: solid;
+	background-color: black
+	
+}
+
+/* Main content styles */
+.hero {
+	background-image: url(/img/buldersyearend1jpg.jpg);
+	background-size: cover;
+	background-position: center;
+	color: black;
+	padding: 100px;
+	text-align: justify;
+}
+.history{
+	background-image: url(/img/ey-family-business-owners-standing-in-their-factory.jpg);
+	background-size: cover;
+	background-position: center;
+	color: black;
+	padding: 100px;
+	text-align: justify;
+}
+.team {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 50px 0;
+}
+.team-member {
+	background-color: #f2f2f2;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+	width: 300px;
+}
+.team-member img {
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+}
+.values {
+	background-color: #f9f9f9;
+	padding: 50px;
+	text-align: center;
+}
+.values ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.values li {
+	margin: 10px;
+	padding: 10px 20px;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+}
+.facebook {
+	padding: 2px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+.facebook:hover {
+	opacity: 0.7;
+}
+.gmail {
+	padding: 2px;
+	font-size: 30px;
+	width: 60px;
+	text-align: center;
+	text-decoration: none;
+}
+.gmail:hover {
+	opacity: 0.7;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .col-md-4 {
+    width: calc(33.33% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #555;
+    text-decoration: none;
+  }
+  
+  .bottom-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .bottom-bar p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .bottom-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .bottom-bar li {
+    margin-left: 20px;
+  }
+  
+  .bottom-bar a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+.hero p{
+	background-color: lightgrey;
+	width: 300px;
+	border: 1px solid black;
+	padding: 50px;
+	margin: 0px;	  
+} 
+.history p{
+	background-color: lightgrey;
+	width: 300px;
+	border: 1px solid black;
+	padding: 50px;
+	margin: 1px;
+}
+  
