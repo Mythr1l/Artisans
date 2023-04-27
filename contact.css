@@ -43,10 +43,13 @@
 	background: #fff;
 }
 .quote {
-	background-color: #FFEDD6;
+	background-color: black;
 }
 #icon {
     height: 30px;
     width: 30px;
     margin-left: 10px;
+}
+.input {
+    background-color: #FFEDD6;
 }
