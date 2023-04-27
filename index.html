@@ -7,39 +7,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artisans</title>
+    <title>Artisan Builders</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="landing.css" >
+	<link rel="stylesheet" href="index.css" >
 </head>
 
 <body>
 
 	<!-- NAVBAR STARTS -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+	<nav class="navbar navbar-expand-lg navbar-light bg-secondary-subtle fixed-top">
 		<div class="container">
 			<a class="navbar-brand" href="#">
-				<img src="img/logo.png" style="height: 45px; width: 70px;">
-			</a> 
+				<img class="img-fluid" src="img/logo.png" style="height: 45px; width: 70px;">
+			</a>
             <button aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
 			<div class="collapse navbar-collapse" id="navContent">
 				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Home</a>
+						<a class="nav-link" href="index.html">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#about">About Us</a>
+						<a class="nav-link" href="about.html">About Us</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#N/A">N/A</a>
+						<a class="nav-link" href="services.html">Services</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#services">Services</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#team">Team</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#contact">Contact</a>
+						<a class="nav-link" href="contact.html">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -47,39 +41,40 @@
 	</nav>
 	<!-- NAVBAR ENDS -->
 
-	<!-- HOME STARTS -->
+	<!-- CAROUSEL STARTS -->
 	<div class="carousel slide" data-bs-ride="carousel" id="carouselIndicators">
 		<div class="carousel-indicators">
 			<button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselIndicators" type="button"></button> <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselIndicators" type="button"></button> <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselIndicators" type="button"></button>
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img class="d-block w-100" src="img/services-1.png">
+				<img class="d-block w-100" src="img/home-1.jpg">
 				<div class="carousel-caption">
 					<h5>Your Dream House</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
-					<p><a class="btn btn-warning mt-3" href="#">Contact Us Today</a></p>
+					<p>Choose a Team that Care more About You</p>
+					<p><a class="btn btn-secondary mt-3" href="#">Contact Us Today</a></p>
 				</div>
 			</div>
 			<div class="carousel-item">
 				<img class="d-block w-100" src="img/about-2.png">
 				<div class="carousel-caption">
 					<h5>Always Dedicated</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
-					<p><a class="btn btn-warning mt-3" href="#">Learn More</a></p>
+					<p>Design and Building Company</p>
+					<p><a class="btn btn-secondary mt-3" href="#">Contact Us Today</a></p>
 				</div>
 			</div>
 			<div class="carousel-item">
 				<img class="d-block w-100" src="img/services-3.png">
 				<div class="carousel-caption">
 					<h5>True Construction</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
-					<p><a class="btn btn-warning mt-3" href="#">Learn More</a></p>
+					<p>Building your Dreams into Reality</p>
+					<p><a class="btn btn-secondary mt-3" href="#">Contact Us Today</a></p>
 				</div>
 			</div>
-		</div><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselIndicators" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="visually-hidden">Previous</span></button> <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselIndicators" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="visually-hidden">Next</span></button>
+		</div>
+		<button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselIndicators" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="visually-hidden">Previous</span></button> <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselIndicators" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="visually-hidden">Next</span></button>
 	</div>
-	<!-- HOME ENDS -->
+	<!-- CAROUSEL ENDS -->
 
     <!-- ABOUT STARTS -->
 	<section class="about section-padding" id="about">
@@ -92,7 +87,7 @@
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-12 col-12">
-					<div class="about-img"><img alt="" class="img-fluid" src="img/about-6.png"></div>
+					<div class="about-img"><img class="img-fluid" src="img/about-6.png"></div>
 				</div>
 			</div>
 		</div>
@@ -103,22 +98,129 @@
 	<section class="quote pt-4 pb-2">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-11 text-white">
+				<div class="col-md-10 text-white">
 					<div>
 						<h3>Let's talk about your plans</h3>
 						<p>Ready to build your new house or renovate? We are here to help you.</p>
 					</div>
 				</div>
-				<div class="col-md-1">
-					<div><button class="btn btn-sm text-white pt-2 pb-2">GET A QUOTE</button></div>
+				<div class="col-md-2">
+					<div><a href=""><button class="btn btn-sm bg-secondary text-white mt-3 pt-2 pb-2">GET A QUOTE</button></a></div>
 				</div>
 			</div>
 		</div>
 	</section>
 	<!-- QUOTE ENDS -->
 
+	<!-- SERVICES STARTS -->
+	<section class="services section-padding" id="services">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header text-center pb-5">
+						<h2>Our Services</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row pb-3">
+				<div class="col-md-6">
+					<div class="text-light text-center bg-white pb-2">
+						<div class="text-dark">
+							<div class="img-area mb-4"><img class="img-fluid" src="img/services-1.png"></div>
+							<h3 class="title">Residential</h3>
+							<a href=""><button class="btn bg-secondary text-white">FIND OUT MORE</button></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="text-light text-center bg-white pb-2">
+						<div class="text-dark">
+							<div class="img-area mb-4"><img class="img-fluid" src="img/services-2.png"></div>
+							<h3 class="title">Commercial</h3>
+							<a href=""><button class="btn bg-secondary text-white">FIND OUT MORE</button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="text-light text-center bg-white pb-2">
+						<div class="text-dark">
+							<div class="img-area mb-4"><img class="img-fluid" src="img/services-3.png"></div>
+							<h4 class="title">Renovation & Cladding</h4>
+							<a href=""><button class="btn bg-secondary text-white">FIND OUT MORE</button></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="text-light text-center bg-white">
+						<div class="text-dark">
+							<div class="img-area mb-4"><img class="img-fluid" src="img/services-4.png"></div>
+							<h3 class="title">Plans/Model</h3>
+							<a href=""><button class="btn bg-secondary text-white">FIND OUT MORE</button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <!-- SERVICES ENDS -->
 
-	<!-- GG STARTS -->
+	<!-- CERTIFICATION STARTS -->
+	<section class="certification section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header text-center pb-5">
+						<h2>NZ CERTIFIED CONTRACTORS</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="certification-img"><img class="img-fluid" src="img/certificate-1.png"></div>
+				</div>
+				<div class="col-md-4">
+					<div class="certification-img"><img class="img-fluid" src="img/certificate-2.png"></div>
+				</div>
+				<div class="col-md-4">
+					<div class="certification-img"><img class="img-fluid" src="img/certificate-3.png"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- CERTIFICATION ENDS -->
+
+	<!-- PARTNERS STARTS -->
+	<section class="partners section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header text-center pb-5">
+						<h2>OUR PARTNERS & SUPPLIERS</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="partners-suppliers-img"><img class="img-fluid" src="img/partners-1.png"></div>
+				</div>
+				<div class="col-md-3">
+					<div class="partners-suppliers-img"><img class="img-fluid" src="img/partners-2.png"></div>
+				</div>
+				<div class="col-md-3">
+					<div class="partners-suppliers-img"><img class="img-fluid" src="img/partners-3.png"></div>
+				</div>
+				<div class="col-md-3">
+					<div class="partners-suppliers-img"><img class="img-fluid" src="img/partners-4.png"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- PARTNERS ENDS -->
+
+
+	<!-- GG STARTS
 	<section class="gg section-padding" id="gg">
 		<div class="container">
 			<div class="row">
@@ -136,7 +238,7 @@
 						<div class="card-body">
 							<i class="bi bi-laptop"></i>
 							<h3 class="card-title">Best Quality</h3>
-							<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi modi temporibus alias iste. Accusantium?</p><button class="btn bg-warning text-dark">Read More</button>
+							<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi modi temporibus alias iste. Accusantium?</p><button class="btn bg-secondary text-dark">Read More</button>
 						</div>
 					</div>
 				</div>
@@ -145,7 +247,7 @@
 						<div class="card-body">
 							<i class="bi bi-journal"></i>
 							<h3 class="card-title">Sustainability</h3>
-							<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi modi temporibus alias iste. Accusantium?</p><button class="btn bg-warning text-dark">Read More</button>
+							<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi modi temporibus alias iste. Accusantium?</p><button class="btn bg-secondary text-dark">Read More</button>
 						</div>
 					</div>
 				</div>
@@ -154,70 +256,16 @@
 						<div class="card-body">
 							<i class="bi bi-intersect"></i>
 							<h3 class="card-title">Integrity</h3>
-							<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi modi temporibus alias iste. Accusantium?</p><button class="btn bg-warning text-dark">Read More</button>
+							<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi modi temporibus alias iste. Accusantium?</p><button class="btn bg-secondary text-dark">Read More</button>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-    <!-- GG STARTS -->
+    GG STARTS
 
-	<!-- SERVICES STARTS -->
-	<section class="services section-padding" id="services">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="section-header text-center pb-5">
-						<h2>Our Services</h2>
-					</div>
-				</div>
-			</div>
-			<div class="row pb-3">
-				<div class="col-md-6">
-					<div class="card text-light text-center bg-white pb-2">
-						<div class="card-body text-dark">
-							<div class="img-area mb-4"><img class="img-fluid"src="img/services-1.png" id="img-fluid"></div>
-							<h3 class="card-title">Residential</h3>
-							<button class="btn">FIND OUT MORE</button>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="card text-light text-center bg-white pb-2">
-						<div class="card-body text-dark">
-							<div class="img-area mb-4"><img class="img-fluid" src="img/services-2.png" id="img-fluid"></div>
-							<h3 class="card-title">Commercial</h3>
-							<button class="btn">FIND OUT MORE</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="card text-light text-center bg-white pb-2">
-						<div class="card-body text-dark">
-							<div class="img-area mb-4"><img class="img-fluid" src="img/services-3.png" id="img-fluid"></div>
-							<h4 class="card-title">Renovation & Cladding</h4>
-							<button class="btn">FIND OUT MORE</button>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="card text-light text-center bg-white pb-2">
-						<div class="card-body text-dark">
-							<div class="img-area mb-4"><img class="img-fluid" src="img/services-4.png" id="img-fluid"></div>
-							<h3 class="card-title">Plans/Model</h3>
-							<button class="btn">FIND OUT MORE</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-    <!-- SERVICES ENDS -->
-
-	<!-- TEAM STARTS -->
+	TEAM STARTS
 	<section class="team section-padding" id="team">
 		<div class="container">
 			<div class="row">
@@ -273,9 +321,9 @@
 			</div>
 		</div>
 	</section>
-    <!-- TEAM ENDS -->
+    TEAM ENDS
 
-	<!-- CONTACT STARTS -->
+	CONTACT STARTS
 	<section class="contact section-padding" id="contact">
 		<div class="container mt-5 mb-5">
 			<div class="row">
@@ -293,13 +341,52 @@
 			</div>
 		</div>
 	</section>
-    <!-- CONTACT ENDS -->
+    CONTACT ENDS -->
 
 	<!-- FOOTER STARTS -->
-	<footer class="bg-dark p-2 text-center">
+	<footer class="bg-dark p-2 text-white">
 		<div class="container">
-			<div class="row"></div>
-			<p class="text-white">All Right Reserved By Artisans</p>
+			<div class="row pt-3">
+				<div class="col-md-4">
+					<div>
+						<h6>ABOUT COMPANY</h6>
+						<p>
+							Our company is founded on integrity, honesty and top quality workmanship for 15 years, we are dedicated to provide superior service to our Clients and Contractors, putting safety first and foremost and creating opportunities for our employees.
+						</p>
+						<div><a href="#"><img class="img-fluid" src="img/linkedin.png" id="icon"></a></div>
+						<div><a href="#"></a><img class="img-fluid" src="img/twitter.png" id="icon"></a></div>
+						<div><a href="#"><img class="img-fluid" src="img/fb.png" id="icon"></a></div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div>
+						<h6>INFORMATION</h6>
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Our Services</a></li>
+							<li><a href="#">Career</a></li>
+							<li><a href="#">News</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div>
+					<h6>CONTACT INFO</h6>
+						<p>
+							Need workers for your commercial build? Have a new house build? Need to get in touch with us? Send us your enquiry and we will be sure to answer your questions.
+						</p>
+						<p>📍 Address: Bonifacio One Technology Tower, 3030, 1634 Rizal Dr, Taguig, Metro Manila, Philippines</p>
+						<p>☎️ Phone: +63 976 928 5103</p>
+						<p>📧 Email: artisanbuilders@gmail.com</p>
+					</div>
+				</div>
+			</div>
+				<div class="text-center pt-5">
+					<p>&copy; 2023 Artisan Builders. All Rights Reserved.</p>
+					<p><a href="#">Privacy Policy</a></p>
+				</div>
 		</div>
 	</footer>
 	<!-- FOOTER ENDS -->

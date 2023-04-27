@@ -2,9 +2,6 @@
 * {
 	font-family: 'Montserrat', sans-serif;
 }
-body {
-	background: #f1fbff;
-}
 .section-padding {
 	padding: 100px 0;
 }
@@ -75,9 +72,6 @@ body {
 	line-height: 0.3;
 	background: #fff;
 }
-.about {
-	background-color: #FFEDD6;
-}
 .quote {
 	background-color: #303944;
 }
@@ -133,23 +127,8 @@ body {
 		margin-bottom: 30px;
 	}
 }
-
-/* Additional Hover Effect */
-.btn{
-	background-color: #FFC107;
-	cursor: pointer;
-	color: #212529;
-  	border: none;
-  	padding: 10px 20px;
-}
-
-.btn:hover{
-	background-color: #FFEDD6;
-
-}
-
-#img-fluid:hover{
-	transform: scale(1.1);
-	z-index: 2;
-	transition: 1s;
+#icon {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
 }
