@@ -75,6 +75,12 @@ body {
 	line-height: 0.3;
 	background: #fff;
 }
+.about {
+	background-color: #FFEDD6;
+}
+.quote {
+	background-color: #303944;
+}
 .portfolio .card {
 	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
