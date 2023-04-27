@@ -42,6 +42,9 @@
 	line-height: 0.3;
 	background: #fff;
 }
+.quote {
+	background-color: #FFEDD6;
+}
 #icon {
     height: 30px;
     width: 30px;

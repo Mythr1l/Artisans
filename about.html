@@ -1,98 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>About Us</title>
-	<link rel="stylesheet" href="about.css">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artisan Builders</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="about.css" >
 </head>
+
 <body>
-	<header>
-		<nav>
-			<ul>
-				<img src="/img/es_builder_logo 8.png" class="logo">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">About Us</a></li>
-			</ul>
-		</nav>
-	</header>
 
-	<main>
-		<section class="hero">
-			<div>
-			<p><b>E&S Builders</b> are a family-owned and operated Building company supplying quality carpentry staff resource for commercial, residential and industrial building industry. It has run through generations within our family passing down through our grandparents, our parents and our brothers.<br><br>
-			We are proud of what we have achieved in the last 15 years. Our workmanship and reliability is what makes our team a quality team we are located in the bay of plenty but extend our supply in Auckland, Waikato and the Bay of Plenty Region. Not only do we run our own carpentry contracts but we also offer a temporary resource system which could work perfectly for you during your busy times of the job.</p>
+	<!-- NAVBAR STARTS -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-secondary-subtle fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<img class="img-fluid" src="img/logo.png" style="height: 45px; width: 70px;">
+			</a>
+            <button aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="services.html">Services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
 			</div>
-		</section>
+		</div>
+	</nav>
+	<!-- NAVBAR ENDS -->
 
-		<br><br><br>
-
-		<section class="history">
-			<div>
-			<p><b>History:</b> As a family-oriented business, our Company is founded on the principles that contributed to our success. We strive to provide excellent service to our clients by delivering exceptional work that exceed our costumer expectations, we strive to work as a team putting safety first and pursuing excellence in our service.<br><br>We are also dedicated to creating opportunities for New Zealanders as well as migrant workers who are willing to share their knowledge and skills with us. We also value hard work and endeavour to act with integrity and fairness in every aspect to our business. These tenets unify and guide us a Company to work as one and build a more successful future.</p>	
+	<!-- INTRO STARTS -->
+	<section class="about section-padding" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+					<div class="aboutText">
+						<h1>Artisan Builders</h1>
+						<h6 class="pb-4">A Tradition of Excellence</h6>
+						<p>
+							Artisan Builders are a family-owned and operated Building company supplying quality carpentry staff resource for commercial, residential and industrial building projects. We are no strangers to the building industry! It has run through generations within our family passing down through our grandparents, our parents and our brothers.
+							<br><br>
+							We are proud of what we have achieved in the last 15 years. Our workmanship and reliability is what makes our team a quality team We are located in the Bay of Plenty but extend our supply in Auckland, Waikato and the Bay of Plenty Region. Not only do we run our own carpentry contracts but we also offer a temporary resource system which could work perfectly for you during your busy times of the job.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12 col-12">
+					<div class="about-img"><img class="img-fluid rounded-3" src="img/about-1.png"></div>
+				</div>
 			</div>
-			<br>
-		</section>
-		
-		<section class="team">
-			<h2>Meet Our Team</h2>
-			<div class="team-member">
-				<img src="/img/Nj-removebg-preview.png" alt="Team Member 2">
-				<h3>NJ Duro</h3>
-				<p>COO</p>
-			</div>
-			<div class="team-member">
-				<img src="/img/jee_lee-removebg-preview.png" alt="Team Member 1">
-				<h3>Jee Lee Obreque</h3>
-				<p>CEO</p>
-			</div>
-			<div class="team-member">
-				<img src="/img/ste-removebg-preview.png" alt="Team Member 3">
-				<h3>Steinar Urbano</h3>
-				<p>CFO</p>
-			 </div>
-		</section>
+		</div>
+	</section>
+    <!-- INTRO ENDS -->
 
-		<section class="values">
-			<h2>Our Values</h2>
-			<ul>
-				<li>Integrity</li>
-				<li>Quality</li>
-				<li>Professionalism</li>
-				<li>Innovation</li>
-				<li>Customer satisfaction</li>
-			</ul>
-		</section>
-	</main>
-	<footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <h3>About Company</h3>
-              <p>Our company is founded on integrity, honesty and top quality workmanship for 15 years, we are dedicated to provide superior service to our Clients and Contractors,   putting safety first and foremost and creating opportunities for our employees.</p>
-			  <img class="gmail"src="/img/gmail-logo 6.png">
-			  <img class="facebook" src="/img/Facebook 3.png">
-            </div>
-            <div class="col-md-4">
-              <h3>Contact Info</h3>
-			  <p>Need workers for your comercial build? Have a new house build? Need to get in touch with us? Send us your enquiry and we will be sure to answer your questions</p>
-              <p>Manila Philippines</p>
-              <p>Phone: 0905-123-1234</p>
-            </div>
-          </div>
-        </div>
-        <div class="bottom-bar">
-          <div class="container">
-            <p>&copy; 2023 E&S Builders. All rights reserved.</p>
-            <ul>
-              <li><a href="#">Terms of Use</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-          </div>
-        </div>
-      </footer>
+	<!-- HISTORY STARTS -->
+	<section class="about section-padding" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-12">
+					<div class="about-img"><img class="img-fluid rounded-3" src="img/about-2.png" style="width: 100%;"></div>
+				</div>
+				<div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+					<div>
+						<h2 class="pb-2">Our History</h2>
+						<p>
+							As a family-oriented business, our Company is founded on the principles that contributed to our success. We strive to provide excellent service to our clients by delivering exceptional work that exceed our customer expectations, we strive to work as a team putting safety first and pursuing excellence in our service.
+							<br><br>
+							We are also dedicated to creating opportunities for New Zealanders as well as migrant workers who are willing to share their knowledge and skills with us. We also value hard work and endeavour to act with integrity and fairness in every aspect of our business. These tenets unify and guide us a Company to work as one and build a more successful future.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <!-- HISTORY ENDS -->
 
+	<!-- HR STARTS -->
+		<div class="container">
+			
+		</div>
+	<!-- HR ENDS -->
+
+	<!-- FAMILY STARTS -->
+	<section class="family section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-dark">
+					<div>
+						<h3 class="pb-4">Our Big Family</h3>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="family-img"><img class="img-fluid rounded-3" src="img/about-family-1.png"></div>
+				</div>
+				<div class="col-md-4">
+					<div class="family-img"><img class="img-fluid rounded-3" src="img/about-family-2.png"></div>
+				</div>
+				<div class="col-md-4">
+					<div class="family-img"><img class="img-fluid rounded-3" src="img/about-family-3.png"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- FAMILY ENDS -->
+
+	<!-- TEAM STARTS -->
+	<section class="team section-padding" id="team">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header text-center pb-5">
+						<h2>Our Team</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card text-center">
+						<div class="card-body">
+							<img alt="" class="img-fluid rounded-circle" src="img/team-1.png">
+							<h3 class="card-title py-2">Niño Jomari Duro</h3>
+							<p class="card-text">Chief Financial Officer</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card text-center">
+						<div class="card-body">
+							<img alt="" class="img-fluid rounded-circle" src="img/team-2.png">
+							<h3 class="card-title py-2">Jee Lee Mae Obreque</h3>
+							<p class="card-text">CEO & President</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card text-center">
+						<div class="card-body">
+							<img alt="" class="img-fluid rounded-circle" src="img/team-3.png">
+							<h3 class="card-title py-2">Steinar Urbano</h3>
+							<p class="card-text">Chief Technical Officer</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <!-- TEAM ENDS -->
+
+	<!-- SERVICES STARTS -->
+	<section class="services section-padding">
+		<div class="container">
+			<div class="row pb-3">
+				<div class="col-md-6">
+					<div class="text-light text-center bg-white pb-2">
+						<div class="text-dark">
+							<div class="img-area mb-4"><img class="img-fluid rounded-3" src="img/proof-1.png" style="height: 350px; width: 350px;"></div>
+							<h3 class="title">NZ CERTIFIED CONTRACTORS</h3>
+							<p>Some of the awards and certificates we gained through the years of hard work and dedication….</p>
+							<a href="#"><button class="btn bg-secondary text-white">READ MORE</button></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="text-light text-center bg-white pb-2">
+						<div class="text-dark">
+							<div class="img-area mb-4"><img class="img-fluid rounded-3" src="img/proof-2.png" style="height: 330px; width: 350px;"></div>
+							<h3 class="title">CORE VALUES</h3>
+							<p>Our Company is founded on these six core values: Integrity, Commitment to our Clients, Diversity, Teamwork, Innovation and Exceptional quality….</p>
+							<a href="#"><button class="btn bg-secondary text-white">READ MORE</button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <!-- SERVICES ENDS -->
+
+	<!-- FOOTER STARTS -->
+	<footer class="bg-dark p-2 text-white">
+		<div class="container">
+			<div class="row pt-3">
+				<div class="col-md-4">
+					<div>
+						<h6>ABOUT COMPANY</h6>
+						<p>
+							Our company is founded on integrity, honesty and top quality workmanship for 15 years, we are dedicated to provide superior service to our Clients and Contractors, putting safety first and foremost and creating opportunities for our employees.
+						</p>
+						<a href="#"><img class="img-fluid rounded-3" src="img/linkedin.png" id="icon"></a>
+						<a href="#"></a><img class="img-fluid rounded-3" src="img/twitter.png" id="icon"></a>
+						<a href="#"><img class="img-fluid rounded-3" src="img/fb.png" id="icon"></a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div>
+						<h6>INFORMATION</h6>
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Our Services</a></li>
+							<li><a href="#">Career</a></li>
+							<li><a href="#">News</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div>
+					<h6>CONTACT INFO</h6>
+						<p>
+							Need workers for your commercial build? Have a new house build? Need to get in touch with us? Send us your enquiry and we will be sure to answer your questions.
+						</p>
+						<p>📍 Address: Bonifacio One Technology Tower, 3030, 1634 Rizal Dr, Taguig, Metro Manila, Philippines</p>
+						<p>☎️ Phone: +63 976 928 5103</p>
+						<p>📧 Email: artisanbuilders@gmail.com</p>
+					</div>
+				</div>
+			</div>
+				<div class="text-center pt-5">
+					<p>&copy; 2023 Artisan Builders. All Rights Reserved.</p>
+					<p><a href="#">Privacy Policy</a></p>
+				</div>
+		</div>
+	</footer>
+	<!-- FOOTER ENDS -->
+	
+	<!-- JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script> 
 </body>
 </html>
